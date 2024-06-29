@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div id="container">
+        <form action="https://formsubmit.co/lordvt15@gmail.com" method="post" id="form">
+            <h1 class="tit">Pesquisa</h1>
+            <label for="nome" class="lb1">nome:</label>
+            <input type="text" placeholder="digite seu nome" name="nome" class="ip1" id="nome">
+            <label for="email" class="lb2">email:</label>
+            <input type="email" placeholder="digite seu email" name="email" class="ip2">
+            <label for="senha" class="lb3">senha:</label>
+            <input type="password" placeholder="digite sua senha" name="senha" class="ip3" id="senha">
+            <i class="bi bi-eye-fill" id="olho" onclick="mostrarsenha()"></i>
+            <button type="submit" class="bt">enviar </button>
+            <button type="reset" class="bt2">resetar </button>
+            <input type="hidden" name="_subject" value="nova informação!">
+            <input type="text" name="_honey" style="display: none">
+            <input type="hidden" name="_captcha" value="false">
+        </form>
+    </div> 
+    <script src="JS/index.JS"></script>
+</body> 
+</html>
