@@ -61,6 +61,58 @@ body{background-image: url(https://img.freepik.com/vetores-gratis/fundo-geometri
     100%{margin-right: 60%;color: blueviolet;}
 } 
 
+
+@media only screen and (max-width: 599px) {*{margin: 0;pad: 0;} 
+body{background-image: url(https://img.freepik.com/vetores-gratis/fundo-geometrico-gradiente_23-2149317853.jpg?size=626&ext=jpg&ga=GA1.1.1703318111.1709941263&semt=ais_user)
+    ;background-size:cover
+    ;background-position: center
+    ;}
+
+#container{display: block;
+    width:60%px ;
+    max-width: 80%
+    ;height: 500px
+    ;margin-top: 5%
+    ;margin-left: 10%
+    ;border: 12px solid red
+    ;border-radius: 10%
+    ;box-shadow:10px 10px 6px black
+    ;background-image: url(https://img.freepik.com/vetores-premium/fundo-de-formularios-sobrepostos_23-2148667678.jpg?w=996)
+    }
+
+.tit{margin-top: 3%
+    ;margin-left: 30%
+    ;margin-bottom: 5%;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;}
+
+.lb1, .lb2, .lb3{display: block
+    ;text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    color: red
+    ;margin-left: 15%
+    ;margin-top: 6%;}
+
+.ip1,.ip2, .ip3{margin-top: 3%
+    ;text-align: center
+    ;text-transform: uppercase
+    ;font-family: Georgia, 'Times New Roman', Times, serif
+    ;padding: 5px
+    ;border: 5px solid black
+    ;border-radius: 10px
+    ;margin-left: 30%;}
+
+    .bt, .bt2{display: block
+        ;margin-left: 35%
+        ;margin-top: 7%
+        ;border: 5px solid black
+        ;border-radius: 20px
+        ;text-align: center
+        ;text-transform: uppercase;width: 25%;max-width: 25%;}
+}
+
+
+
 /* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
 @media only screen and (min-width: 600px) {*{margin: 0;pad: 0;} 
 body{background-image: url(https://img.freepik.com/vetores-gratis/fundo-geometrico-gradiente_23-2149317853.jpg?size=626&ext=jpg&ga=GA1.1.1703318111.1709941263&semt=ais_user)
