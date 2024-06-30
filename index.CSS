@@ -56,9 +56,9 @@ body{background-image: url(https://img.freepik.com/vetores-gratis/fundo-geometri
         ;margin-bottom: 5%;
         text-transform: uppercase;
         font-family: 'Times New Roman', Times, serif;}
-    50%{margin-left: 40%;color:red}
-    75%{margin-left: 50%;color: yellow;}
-    100%{margin-right: 60%;color: blueviolet;}
+    50%{margin-left: 20%;color:red}
+    75%{margin-left: 30%;color: yellow;}
+    100%{margin-right: 45%;color: blueviolet;}
 } 
 
 
@@ -73,7 +73,7 @@ body{background-image: url(https://img.freepik.com/vetores-gratis/fundo-geometri
     max-width: 100%
     ;height: 500px
     ;margin-top: 5%
-    ;margin-left: 12%
+    ;margin-left: 8%
     ;border: 12px solid red
     ;border-radius: 10%
     ;box-shadow:10px 10px 6px black
@@ -94,7 +94,7 @@ body{background-image: url(https://img.freepik.com/vetores-gratis/fundo-geometri
     ;margin-top: 6%;}
 
 .ip1,.ip2, .ip3{margin-top: 3%
-    ;width:28%
+    ;width:30%
     ;text-align: center
     ;text-transform: uppercase
     ;font-family: Georgia, 'Times New Roman', Times, serif
